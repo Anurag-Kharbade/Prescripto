@@ -38,7 +38,7 @@ const Navbar = () => {
                 </NavLink>                
                 
             </ul>
-            <p onClick={() => window.open('https://fancy-starship-42760e.netlify.app/', '_blank')} className='border px-2.5 rounded-full border-gray-500 text-gray-600 cursor-pointer'>Admin Panel</p>
+            <p onClick={() => window.open('https://anurag-doctor-appointment-admin-panel.netlify.app/', '_blank')} className='border px-2.5 rounded-full border-gray-500 text-gray-600 cursor-pointer'>Admin Panel</p>
             <div className='flex items-center gap-4 '>
                 {
                     token && userData
